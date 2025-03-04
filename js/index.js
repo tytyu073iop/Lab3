@@ -13,7 +13,9 @@ function GetValue() {
 }
 
 function allval() {
-    alert(ListValues());
+    let info = ListValues();
+    alert(info);
+    console.log(info);
 }
 
 function AddValue(key, value) {
